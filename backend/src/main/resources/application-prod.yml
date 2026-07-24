@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    show-sql: false
+  flyway:
+    baseline-on-migrate: true
+
+server:
+  port: ${PORT:8081}
+
+logging:
+  level:
+    com.meridian.keystone: INFO
+    org.springframework: WARN

@@ -1,0 +1,49 @@
+# Environment / secrets — NEVER commit these
+.env
+*.env.local
+backend/src/main/resources/application-local.yml
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+
+
+
+.kiro/
+.cursor/
+.cursor-cache/
+
+.claude/
+.claude-cache/
+
+.aider*
+.aider/
+
+.continue/
+.continue-cache/
+
+.copilot/
+
+.github/copilot/
+
+# OS
+.DS_Store
+Thumbs.db
