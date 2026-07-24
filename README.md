@@ -354,4 +354,4 @@ See `DEPLOYMENT.md` for Vercel + Render cloud deployment instructions.
 
 ---
 
-*Built with ❤️ by Prasad Ingole — Zidio Development Java Full-Stack Engineering Programme*
+
