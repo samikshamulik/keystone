@@ -3,6 +3,7 @@ services:
   - type: web
     name: keystone-api
     runtime: docker
+    region: singapore
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
     plan: free
