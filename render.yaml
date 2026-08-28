@@ -18,7 +18,7 @@ services:
           property: user
       - key: DATABASE_PASSWORD
         fromDatabase:
-          name: keystone-db
+          name: keystone-dbs
           property: password
       - key: JWT_SECRET
         generateValue: true
